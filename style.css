@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap'); /* TITLES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* CONTENT */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background: url('./images/wallpaper.jpg') fixed;
+  background-position-x: center;
+  background-clip: border-box;
+}
+
+header {
+  text-align: center;
+  background: #75E6DA;
+  color: #fff;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 4px #00000045;
+  color: #333;
+  padding: 20px 0;
+}
+
+.content {
+  padding: 48px 32px;
+}
+
+main {
+  color: #e7e7e7;
+}
+
+h1, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  padding-bottom: 32px;
+}
+
+p {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ol {
+  padding: 0 2em;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  background: #05445E;
+  font-size: 0;
+}
+footer i {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 24px 16px;
+}
+footer a {
+  color: #189AB4;
+  transition: all .2s;
+}
+footer a:hover {
+  color: #D4F1F4;
+}
